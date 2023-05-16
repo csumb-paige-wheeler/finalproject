@@ -1,0 +1,140 @@
+body {
+  background-image: url("img/watercolorbackground.png");
+  background-size: cover;
+  background-attachment: fixed;
+  position: auto;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+@font-face {
+  font-family: 'Plante';
+  src: url('fonts/Plante.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'surfing';
+  src: url('fonts/Surfing Capital.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'James';
+  src: url('fonts/James Stroker.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Billgest';
+  src: url('/fonts/Cat paw.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'CittaNovela';
+  src: url('/fonts/Ring%20Netlike_dafont.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.navbar-brand {
+  font-size: 6.5vh;
+  font-family: 'Plante', sans-serif;
+  /* adjust the font size to your liking */
+}
+
+.navbar-custom {
+  background-color: #98ebe1;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.navbar-text {
+  font-size: 25px;
+  font-family: 'Billgest', sans-serif;
+  /* adjust the font size to your liking */
+}
+
+.nav-link {
+  color: #333;
+}
+
+.nav-link:hover {
+  color: #fff;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  /* padding-top: 15vh; */
+}
+
+#welcome {
+  padding-top: 10vh;
+}
+
+.logo {
+  max-width: 95%;
+  margin-bottom: 5px;
+}
+
+.title {
+  font-size: 60px;
+  font-family: 'Billgest', sans-serif;
+  color: black;
+}
+
+#welcome-text {
+  font-size: 37px;
+  color: black;
+  font-family: 'CittaNovela', sans-serif;
+  background-color: rgba(256, 256, 256, .6);
+  border-radius: 10px 15px 10px 15px;
+  display: inline-block;
+  /* margin: auto 100px; */
+  padding: 20px;
+
+}
+
+.custom-btn {
+  z-index: 6;
+  background-color: #0b92a1;
+  color: white;
+  font-size: 1.5em;
+  padding: 2px 5px;
+}
+
+.custom-btn:hover {
+  background-color: white;
+}
+
+@media (max-width:768px) {
+  .custom-btn {
+    font-size: 7vh;
+  }
+
+  .container {
+    width: 97%;
+  }
+}
+
+@media (max-width:480px) {
+  .custom-btn {
+    font-size: 5vh;
+  }
+}

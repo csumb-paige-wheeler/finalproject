@@ -1,0 +1,254 @@
+:root {
+  --transparent-white:rgba(256, 256, 256, 0.5);
+  --transparent-blue:rgba(115, 185, 229, 0.6);
+}
+
+body {
+  background-image: url("../../img/wcbg4.png");
+  background-size: cover;
+  background-attachment: fixed;
+  position: auto;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+@font-face {
+  font-family: 'Note';
+  src: url('../../fonts/SocialMedia.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Plante';
+  src: url('../../fonts/Plante.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Billgest';
+  src: url('../../fonts/Cat paw.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Chasing';
+  src: url('../../fonts/Chasing Embers Demo Version.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.navbar-brand {
+  font-size: 6.5vh;
+  font-family: 'Plante', sans-serif;
+  /* adjust the font size to your liking */
+}
+
+.navbar-custom {
+  background-color: #98ebe1;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.navbar-text {
+  font-size: 25px;
+  font-family: 'Billgest', sans-serif;
+  /* adjust the font size to your liking */
+}
+
+.nav-link {
+  color: #333;
+}
+
+.nav-link:hover {
+  color: #fff;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  /* padding-top: 15vh; */
+}
+
+#welcome {
+  padding-top: 15vh;
+}
+
+.logo {
+  max-width: 95%;
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-size: 120px;
+  font-family: 'Chasing', sans-serif;
+  color: darkblue;
+  text-align: center;
+  background-color: var(--transparent-blue);
+  border-radius: 10px 15px 10px 15px;
+  padding: 10px;
+  margin-left:5%;
+  margin-right:3%;
+}
+
+.carousel-item img {
+  width: 100%;
+  max-width: 300%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+#extracurricular-heading {
+  text-align: center;
+  font-family: Note;
+  font-size: 10vh;
+  font-weight: bold;
+  background-color: var(--transparent-white);
+  margin-right: 25%;
+  margin-left: 25%;
+}
+
+.section-heading {
+  margin-left: 30px;
+}
+
+#clubs-flex {
+  display: flex;
+  justify-content: center;
+}
+
+#supersmash,
+#swifties {
+  margin: 10px;
+  text-align: center;
+}
+
+#supersmash {
+  width: 45%;
+}
+
+#swifties {
+  width: 45%
+}
+
+h3 {
+  background-color: var(--transparent-white);
+  font-size: 3vh;
+  border-radius: 10px;
+}
+
+#carouselExample {
+  width: 75%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.recreation .carousel-item img {
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+figcaption {
+  text-align: center;
+}
+
+#recreation-info,
+#sightseeing-info {
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 150%;
+  background-color: var(--transparent-white);
+  border-radius: 20px;
+  padding: 10px;
+}
+
+img {
+  object-fit: cover;
+}
+
+figcaption {
+  font-size: 3vh;
+  background-color: var(--transparent-white);
+  border-radius: 10px;
+}
+
+#sightseeing-gallery {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+#sightseeing-gallery img {
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+@media (max-width:768px) {
+  #carouselExample {
+    width: 95%;
+    height: auto;
+  }
+
+  #clubs-flex {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #supersmash,
+  #swifties {
+    width: 95%;
+  }
+
+  #recreation-info,
+  #sightseeing-info {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: medium;
+  }
+
+  h2 {
+    font-size: 75px;
+  }
+
+  main {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 10vh;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}
+
+@media (max-width:480px) {
+  h2 {
+    font-size: 50px;
+  }
+}

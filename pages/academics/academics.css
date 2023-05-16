@@ -1,0 +1,138 @@
+:root {
+  --round:10px;
+  --teal:#084955;
+  --assist-padding:2.4vh;
+}
+
+body {
+  background-image: url("../../img/wcbg3.png");
+  background-size: cover;
+  background-attachment: fixed;
+  position: auto;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+h1 {
+  font-family: love;
+  font-size: 60px;
+  color: black;
+  text-align: center;
+  background-color: rgba(256, 256, 256, .6);
+  border-radius: 10px 15px 10px 15px;
+  padding: 37px;
+  margin-top: 20px;
+}
+
+.col {
+  margin-top:5vh;
+}
+
+@media (max-width:768px) {
+  .card-text {
+  font-size:2vh;
+  }
+}
+
+@media (max-width:480px) {
+  .card-text {
+    font-size:3vh;
+  }
+}
+
+.container-xl {
+  margin-top:5vh;
+  margin-bottom:5vh;
+  flex-direction: wrap;
+}
+
+.card-img-top {
+  padding:5px;
+  border-radius:var(--round);
+  border-style:solid;
+  border-width:0px;
+  border-color:var(--teal)
+}
+
+.card-img-top:hover {
+  border-width:3px;
+  transition:border-width 1s;
+}
+
+#assist-photo {
+  padding-top:var(--assist-padding);
+  padding-bottom:var(--assist-padding);
+}
+
+@font-face {
+  font-family: 'Note';
+  src: url('../../fonts/SocialMedia.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Plante';
+  src: url('../../fonts/Plante.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Billgest';
+  src: url('../../fonts/Cat paw.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Chasing';
+  src: url('../../fonts/Chasing Embers Demo Version.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'love';
+  src: url('/fonts/Fall\ in\ love.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.navbar-brand {
+  font-size: 6.5vh;
+  font-family: 'Plante', sans-serif;
+  /* adjust the font size to your liking */
+}
+
+.navbar-custom {
+  background-color: #98ebe1;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.navbar-text {
+  font-size: 25px;
+  font-family: 'Billgest', sans-serif;
+  /* adjust the font size to your liking */
+}
+
+.nav-link {
+  color: #333;
+}
+
+.nav-link:hover {
+  color: #fff;
+}
+
+
