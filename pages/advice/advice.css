@@ -1,6 +1,6 @@
 :root {
-  --round:20px;
-  --teal:#084955
+  --round: 20px;
+  --teal: #084955
 }
 
 body {
@@ -21,6 +21,7 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'Note';
   src: url('../../fonts/SocialMedia.ttf') format('truetype');
@@ -107,9 +108,9 @@ body {
 
 /* START OF PAGE-SPECIFIC CSS */
 .title {
-  text-align:center;
-  margin-top:20px;
-  margin-bottom:30px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 h1 {
@@ -118,40 +119,40 @@ h1 {
 }
 
 h2 {
-font-family: pumpkin;
+  font-family: pumpkin;
   font-size: 8vh;
-  
+
 }
 
 .advice-name {
-  text-align:center;
+  text-align: center;
   font-family: pumpkin;
-  font-size:300%;
+  font-size: 300%;
 }
 
 h4 {
-  font-family:pumpkin;
-  font-size:200%
+  font-family: pumpkin;
+  font-size: 200%
 }
 
 #advice-section {
   display: flex;
-  justify-content:space-evenly;
-  margin-bottom:30px;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
 }
 
 .advice {
-  width:30%;
-  border-radius:var(--round);
-  border-style:double;
-  border-width:5px;
-  border-color:var(--teal);
+  width: 30%;
+  border-radius: var(--round);
+  border-style: double;
+  border-width: 5px;
+  border-color: var(--teal);
   text-align: center;
   background-color: white;
 }
 
 .id-photos {
-  margin-top:20px;
+  margin-top: 20px;
   margin-bottom: 10px;
 }
 
@@ -177,33 +178,30 @@ h4 {
 }
 
 .advice-text {
-  padding:10px;
+  padding: 10px;
 }
 
 .p-advice {
   text-align: left;
 }
 
-@media(max-width:768px){
+@media(max-width:768px) {
   #advice-section {
-    flex-direction:column;
+    flex-direction: column;
   }
+
   .advice {
-    width:90%;
-    margin:0 auto;
+    width: 90%;
+    margin: 0 auto;
   }
 }
+
 .title {
-    font-size: 10rem;
-  }
+  font-size: 10rem;
+}
 
 @media screen and (max-width: 480px) {
   .title {
     font-size: 5rem;
   }
 }
-
-
-
-
-
